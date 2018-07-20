@@ -20,30 +20,29 @@ header {
     z-index: 99999;
     right: 20px; }
 
-.navbar-collapse ul li a,
-.navbar-collapse ul li a:after,
-.navbar-collapse ul li a:before {
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out; }
-
 .navbar-collapse {
   margin: 0;
   padding: 10px 0; }
-
-.navbar-collapse ul {
-  display: block;
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-.navbar-collapse ul li {
-  display: inline-block; }
-
-.navbar-collapse ul li a {
-  display: block;
-  line-height: 50px;
-  padding: 0 35px;
-  text-decoration: none; }
+  .navbar-collapse ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .navbar-collapse ul li {
+      display: inline-block; }
+      .navbar-collapse ul li a {
+        display: block;
+        line-height: 50px;
+        padding: 0 35px;
+        text-decoration: none;
+        -webkit-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out; }
+        .navbar-collapse ul li a:after {
+          -webkit-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out; }
+        .navbar-collapse ul li a:before {
+          -webkit-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out; }
 
 ul#menu-rafacastros-menu li a {
   color: #fff;
@@ -52,53 +51,42 @@ ul#menu-rafacastros-menu li a {
   font-family: "Oxygen", sans-serif;
   -webkit-transition: 100ms;
   /* Safari */
-  transition: 100ms; }
-
-ul#menu-rafacastros-menu li a {
+  transition: 100ms;
   position: relative; }
-
-ul#menu-rafacastros-menu li a:before {
-  color: #2e386f;
-  content: "[";
-  display: block;
-  font-size: 1.5em;
-  left: 30px;
-  opacity: 0;
-  position: absolute;
-  top: -3px;
-  font-weight: 400; }
-
-ul#menu-rafacastros-menu li a:after {
-  color: #2e386f;
-  content: "]";
-  display: block;
-  font-size: 1.5em;
-  opacity: 0;
-  position: absolute;
-  right: 30px;
-  top: -3px;
-  font-weight: 400; }
-
-ul#menu-rafacastros-menu li a:hover:before {
-  left: 15px;
-  opacity: 1; }
-
-ul#menu-rafacastros-menu li a:hover:after {
-  opacity: 1;
-  right: 15px; }
-
-ul#menu-rafacastros-menu li a:hover {
-  background-color: rgba(0, 0, 0, 0);
-  background: trasnparent;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: "Oxygen", sans-serif; }
-
-ul#menu-rafacastros-menu li a:active,
-ul#menu-rafacastros-menu li a:visited,
-ul#menu-rafacastros-menu li a:focus,
-ul#menu-rafacastros-menu li a:focus-within {
-  background-color: rgba(0, 0, 0, 0); }
+  ul#menu-rafacastros-menu li a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    background: trasnparent;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Oxygen", sans-serif; }
+  ul#menu-rafacastros-menu li a:before {
+    color: #2e386f;
+    content: "[";
+    display: block;
+    font-size: 1.5em;
+    left: 30px;
+    opacity: 0;
+    position: absolute;
+    top: -3px;
+    font-weight: 400; }
+  ul#menu-rafacastros-menu li a:after {
+    color: #2e386f;
+    content: "]";
+    display: block;
+    font-size: 1.5em;
+    opacity: 0;
+    position: absolute;
+    right: 30px;
+    top: -3px;
+    font-weight: 400; }
+  ul#menu-rafacastros-menu li a:hover:before {
+    left: 15px;
+    opacity: 1; }
+  ul#menu-rafacastros-menu li a:hover:after {
+    opacity: 1;
+    right: 15px; }
+  ul#menu-rafacastros-menu li a:active, ul#menu-rafacastros-menu li a:visited, ul#menu-rafacastros-menu li a:focus, ul#menu-rafacastros-menu li a:focus-within {
+    background-color: rgba(0, 0, 0, 0); }
 
 .rotate {
   background: linear-gradient(-30deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30%, rgba(49, 105, 0, 0.5) 30%, rgba(49, 105, 0, 0.5) 70%, rgba(49, 105, 0, 0.5) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
@@ -107,7 +95,7 @@ ul#menu-rafacastros-menu li a:focus-within {
 #servicos {
   background-color: #2e386f; }
   #servicos #rotate2 {
-    /*  background: linear-gradient(200deg, rgba(000, 000, 000, 0) 0%, rgba(000, 000, 000, 0) 30%, rgba(124, 176, 79, 0.5) 30%, rgba(124, 176, 79, 0.5) 70%, rgba(124, 176, 79, 0.5) 70%, rgba(000, 000, 000, 0) 70%, rgba(000, 000, 000, 0) 100%); */ }
+    /* background: linear-gradient(207.5deg, rgba(000, 000, 000, 0) 0%, rgba(000, 000, 000, 0) 30%, rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0.2) 70%, rgba(000, 000, 000, 0) 70%, rgba(000, 000, 000, 0) 100%); */ }
     #servicos #rotate2 .owl-nav,
     #servicos #rotate2 .owl-dots {
       display: none; }
@@ -118,10 +106,11 @@ ul#menu-rafacastros-menu li a:focus-within {
     #servicos #rotate2 div.container #demos .owl-carousel .cloned {
       display: none; }
     #servicos #rotate2 div.container #demos .owl-carousel .item {
-      padding: 45px 20px; }
+      padding: 40px 20px 0px 20px; }
     #servicos #rotate2 div.container #demos .owl-carousel .item .row {
       text-align: center;
-      border: 1px solid #fff; }
+      background-color: #29346d;
+      padding: 35px 23px; }
       #servicos #rotate2 div.container #demos .owl-carousel .item .row img {
         width: 100px;
         display: inline-block; }

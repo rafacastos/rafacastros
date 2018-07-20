@@ -6,9 +6,9 @@
             <div class="video-container">
                 <div class="filter"></div>
                 <video autoplay loop class="fillWidth">
-                <source src="<?php echo get_template_directory_uri(); ?>/assets/MP4/Aloha-Mundo.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                <source src="<?php echo get_template_directory_uri(); ?>/assets/WEBM/Aloha-Mundo.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            </video>
+                    <source src="<?php echo get_template_directory_uri(); ?>/assets/MP4/Aloha-Mundo.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    <source src="<?php echo get_template_directory_uri(); ?>/assets/WEBM/Aloha-Mundo.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
                 <div class="poster hidden">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Snapshots/Aloha-Mundo.jpg" alt="">
                 </div>
@@ -17,19 +17,21 @@
     </div>
 
     <div class="row" id="servicos">
-        <div  id="rotate2">
+        <div id="rotate2">
             <div class="container">
                 <div class="row" id="demos">
                     <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="row line">
-                                <img src="<?php echo get_template_directory_uri(); ?>/imagens/sites.png" alt="">
-                                <h2>Criação de Sites</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci!</p>
+                        <div class="">
+                            <div class="item">
+                                <div class="row">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/imagens/sites.png" alt="">
+                                    <h2>Criação de Sites</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci!</p>
+                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="row line">
+                            <div class="row ">
                                 <img src="<?php echo get_template_directory_uri(); ?>/imagens/responsivo.png" alt="">
                                 <h2>Sites Responsivos</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, laborum?</p>
@@ -82,6 +84,9 @@
             </div>
         </div>
     </div>
+</section>
+<section class="container-fluid">
+    
 </section>
 
 

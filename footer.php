@@ -1,3 +1,12 @@
+<footer class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>Todos os diretos reservados - Rafael Castro 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -28,7 +37,7 @@
         })
     })
 
-</script> 
+</script>
 
 
 <?php wp_footer(); ?>
